@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #ffcc00;
+            color: #333;
+            padding: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: left;
+        }
+        main img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lightning</h1>
+        <p>O estúdio de eletroestimulação que transforma seus treinos!</p>
+    </header>
+    <main>
+        <section id="quem-somos">
+            <h2>Quem Somos</h2>
+            <p>Somos um estúdio especializado em eletroestimulação e reabilitação, oferecendo treinos personalizados e tecnológicos para maximizar seus resultados e recuperar a sua melhor forma.</p>
+        </section>
+        <section id="nossos-servicos">
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <li>Treinamento com Eletroestimulação</li>
+                <li>Programas de Reabilitação Física</li>
+                <li>Consultoria Personalizada de Saúde e Bem-Estar</li>
+            </ul>
+        </section>
+        <section id="beneficios">
+            <h2>Benefícios da Eletroestimulação</h2>
+            <p>Com a eletroestimulação, você pode:</p>
+            <ul>
+                <li>Reduzir o tempo de treino com máxima eficiência</li>
+                <li>Fortalecer músculos de forma segura</li>
+                <li>Acelerar a recuperação muscular</li>
+                <li>Melhorar a mobilidade e qualidade de vida</li>
+            </ul>
+        </section>
+        <section id="depoimentos">
+            <h2>Depoimentos de Clientes</h2>
+            <blockquote>
+                "A Lightning mudou completamente minha forma de treinar. Nunca me senti tão bem e com resultados tão rápidos!" - <strong>João Silva</strong>
+            </blockquote>
+            <blockquote>
+                "Com a ajuda da Lightning, recuperei minha mobilidade após uma lesão grave. Recomendo a todos!" - <strong>Maria Oliveira</strong>
+            </blockquote>
+        </section>
+        <p>Treine de forma eficiente e tecnológica com nossos equipamentos de ponta.</p>
+        <img src="https://via.placeholder.com/800x400" alt="Pessoa treinando com eletroestimulação">
+        <p>
+            <a href="#quem-somos">Quem Somos</a> |
+            <a href="#nossos-servicos">Nossos Serviços</a> |
+            <a href="#beneficios">Benefícios</a> |
+            <a href="#depoimentos">Depoimentos</a> |
+            <a href="#">Agende uma Aula</a> |
+            <a href="#">Contato</a>
+        </p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lightning - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
